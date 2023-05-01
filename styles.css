@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    padding: 1rem;
+    color: #fff;
+}
+
+nav {
+    background-color: #f1f1f1;
+    padding: 1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar a:hover {
+    color: #007bff;
+}
+
+main {
+    flex-grow: 1;
+    padding: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 1rem 0;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+/* Add this after the form styles */
+section {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.news-list {
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+.news-list li {
+    margin-bottom: 1rem;
+}
+
+.news-list h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
